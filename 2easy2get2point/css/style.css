@@ -1,6 +1,5 @@
 * {
     font-family: Tahoma;
-    margin: 7px;
 }
 
 .song-item {
@@ -71,4 +70,58 @@
 
 input.error {
     border-color: red;
+}
+.control{
+    padding-left:260px ;
+
+}
+.error{
+    padding-left: 10px;
+}
+.carousel-inner{
+
+    height: 50%;
+}
+.d-block w-100{
+
+    height:50% ;
+}
+
+
+#footer {
+    border-top: 2px dashed rgba(0, 0, 0, 1);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    background: linear-gradient(to top, #bd87cf, #e4efe9);
+
+}
+
+.boxContact {
+    width: 30%;
+    float: left;
+    color: black;
+    padding-top: 20px;
+    font-size: 14px;
+    margin-right: 40px;
+}
+
+a:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+a {
+    color: #4e41eb;
+    transition: .4s;
+}
+
+.box-bug {
+    width: 20%;
+    float: left;
+    padding: 0 10px;
+}
+
+.box-img-brand {
+    margin-left: 20%;
 }

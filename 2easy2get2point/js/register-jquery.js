@@ -18,7 +18,6 @@ var validator = $('#register-form').validate({
         'confirm-password': {
             equalTo: '[name="password"]'
         }
-
     },
     messages: {
         firstName: {
